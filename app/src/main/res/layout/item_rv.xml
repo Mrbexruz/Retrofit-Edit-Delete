@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Chap tomondagi matnlar -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oltin"
+            android:textColor="#FF9800"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Massa"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_izoh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izoh"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_sana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sana"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_sarlavha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sarlavha"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="4dp" />
+    </LinearLayout>
+
+    <!-- O'ng tomondagi harakatlar -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp">
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Edit"
+            android:padding="8dp"
+            android:src="@drawable/img_4"
+            android:tint="#4CAF50" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/img_2"
+            android:contentDescription="Delete"
+            android:padding="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:tint="#F44336" />
+    </LinearLayout>
+
+</LinearLayout>
